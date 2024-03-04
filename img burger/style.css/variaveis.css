@@ -1,0 +1,19 @@
+/* Variaveis Cores */
+
+:root {
+    --preset--text-transform: uppercase; 
+    --preset--color--laranja-escuro: #FE6A0F;
+}
+
+
+/* Variaveis Fontes */
+
+@font-face {
+    font-family: "Calistoga";
+    src: url(../Fontes/Calistoga-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url(../Fontes/Inter-Regular.ttf);
+}

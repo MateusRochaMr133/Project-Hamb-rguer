@@ -1,0 +1,218 @@
+.top-header {
+    
+}
+
+
+.lista-menu {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr );
+    grid-template-rows: repeat(6, 1fr );
+    color: #fff;
+    font-family: "Regular";
+    list-style: none;
+    padding: 40px 0px;
+}
+
+
+div.lista-menu img.ttp {
+    grid-column: 2 / 3;
+}
+
+div.lista-menu ul.tap {
+    grid-column: 4 / 5;
+    font-size: 30px;
+}
+
+div.lista-menu ul.tep {
+    grid-column: 6 / 7;
+    font-size: 30px;
+}
+
+div.lista-menu ul.tup {
+    grid-column: 8 / 9;
+    font-size: 30px;
+}
+
+div.lista-menu ul.top {
+    grid-column: 10 / 12;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+header .top {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+}
+
+
+/* Section Hamburguer */
+
+
+div.hamburguer {
+    flex-direction: column;
+}
+
+div.hamburguer h2 {
+    font-weight: 400px;
+    font-size: 72px;
+    line-height: 74px;
+    font-family: "Calistoga";
+    padding: 20px;
+}
+
+div.hamburguer h3 {
+    font-family: "Regular";
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 20px;
+}
+
+div.hamburguer button {
+    width: 280px;
+    height: 60px;
+    border-radius: 5px;
+    color: #fff;
+    margin: 20px;
+    background-color: var(--preset--color--laranja-escuro);
+}
+
+
+section.hamburguer-grande {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Section Pesquise Hamburguer */
+
+section.pesquise-hamburguer {
+    background-color: #1F1F1F;
+    height: 372px;
+    padding: 30px;
+    
+}
+
+div.form-hamburguer h2 {
+    font-family: "Regular";
+    font-size: 32px;
+    font-weight: 500px;
+    line-height: 38px;
+    color: #fff;
+}
+
+div.form-hamburguer input {
+    background-color: #2B2B2B;
+}
+
+div.teste {
+    
+}
+
+div.name-hamburguer {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.name-hamburguer input {
+    width: 488px;
+    height: 34px;
+    font-family: "Regular";
+    font-weight: 400px;
+    font: 24px;
+    line-height: 33px;
+}
+
+select#hamburguer {
+    font-family: "Regular";
+    width: 400px;
+    height: 34px;
+    font-size: 24px;
+    background-color: #2B2B2B;
+    color: #979797;
+}
+
+
+/* Section Hamburguer Cards */
+
+section.selecione-hamburguer {
+    padding: 30px;
+    
+}
+
+div.hamburguer-card-todos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.hamburguer-card img {
+    width: 214px;
+    height: 194px;
+}
+
+
+
+div.hamburguer-card {
+    text-align: center;
+    flex-direction: column;
+    background-color: #1F1F1F;
+    border-radius: 8px;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin: 10px 20px;
+}
+
+div.hamburguer-card h2 {
+    font-family: "Regular";
+    width: 95px;
+    height: 22px;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+div.hamburguer-card h3 {
+    width: 296px;
+    height: 42px;
+    font-family: "Calistoga";
+    font-weight: 400px;
+    font-size: 32px;
+    line-height: 41px;
+}
+
+div.hamburguer-card p {
+    color: #FE6A0F;
+    width: 169px;
+    height: 39px;
+    font-family: "Regular";
+    font-weight: 600px;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+
+/* Footer */
+
+footer.footer-hamburguer {
+    background-color: #1F1F1F;
+    width: 1900px;
+    height: 150px;
+}
+
+footer.footer-hamburguer img {
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+
