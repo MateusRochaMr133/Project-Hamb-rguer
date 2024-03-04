@@ -174,7 +174,6 @@ div.hamburguer-card {
 
 div.hamburguer-card h2 {
     font-family: "Regular";
-    width: 95px;
     height: 22px;
     font-weight: 500px;
     font-size: 18px;
@@ -182,7 +181,6 @@ div.hamburguer-card h2 {
 }
 
 div.hamburguer-card h3 {
-    width: 296px;
     height: 42px;
     font-family: "Calistoga";
     font-weight: 400px;
@@ -192,7 +190,7 @@ div.hamburguer-card h3 {
 
 div.hamburguer-card p {
     color: #FE6A0F;
-    width: 169px;
+
     height: 39px;
     font-family: "Regular";
     font-weight: 600px;
