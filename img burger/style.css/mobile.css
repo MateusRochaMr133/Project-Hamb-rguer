@@ -1,0 +1,82 @@
+/* Header */
+.lista-menu i {
+    opacity: 1;
+}
+
+div.lista-menu img {
+    align-items: center;
+    width: 30%;
+}
+
+div.lista-menu ul.menu {
+    opacity: 0;
+}
+
+/* Section Hamburguer Grande */
+section.hamburguer-grande {
+    flex-direction: column;
+    text-align: center;
+}
+
+div.hamburguer {
+    flex-direction: column;
+}
+
+div.hamburguer h2 {
+    font-size: 44px;
+    font-weight: 400px;
+    line-height: 50px;
+    align-items: center;
+}
+
+div.hamburguer h3 {
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 26px;
+    align-items: center;
+}
+
+div.img-hamburguer {
+    align-items: center;
+    position: relative;
+    left: 60px;
+    top: 30px;
+}
+
+div.img-hamburguer img {
+    width: 290px;
+    height: 350px;
+}
+
+
+
+
+
+/* Section Pesquise Hamburguer */
+
+div.informacoes-hamburguers {
+    flex-direction: column;
+}
+
+div.name-hamburguer {
+
+}
+
+/* Section Selecione-hamburguer */
+
+
+
+div.hamburguer-card {
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+/* Footer */
+
+footer.footer-hamburguer {
+    width: 98%;
+}
+
+footer.footer-hamburguer img {
+    text-align: center;
+}

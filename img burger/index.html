@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./style.css/reset.css">
     <link rel="stylesheet" href="./style.css/style.css">
     <link rel="stylesheet" href="./style.css/variaveis.css">
+    <link rel="stylesheet" href="./style.css/tablet.css" media="screen and (max-width:1025px)">
+    <link rel="stylesheet" href="./style.css/mobile.css" media="screen and (max-width:812px)">
 
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +26,8 @@
     <header class="top-header">
 
         <div class="lista-menu">
-            <img class="ttp menu" src="./Burger.png" alt="">
+            <i class="fa-solid fa-bars"></i>
+            <img class="ttp" src="./Burger.png" alt="">
             <ul class="tap menu">Inicio</ul>
             <ul class="tep menu">Burgers</ul>
             <ul class="tup menu">Contato</ul>
@@ -52,17 +55,20 @@
         <section class="pesquise-hamburguer">
 
             <div class="form-hamburguer">
-                <h2>Pesquise o seu <br> Hamburguer favorito!</h2>
 
-                <form action="">
-                    <div class="name-hamburguer">
+                <div class="name-hamburguer">
 
-                        <div class="teste">
-                            <h4>Digite o nome do Burguer</h2>
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                        </div>
+                    <div class="hamburguer-favorito">
+                        <h2>Pesquise o seu <br> Hamburguer favorito!</h2>
+                    </div>
 
-                        <input type="text">Digite o nome do Burguer
+                    <div class="informacoes-hamburguers">
+
+
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Digite o nome do Burguer">
+
+
                         <select name="hamburguers" id="hamburguer">
                             <option value="" disabled selected>Selecione Categoria</option>
                             <option value="Texas-Tradicional">Texas-Tradicional</option>
@@ -72,31 +78,24 @@
                             <option value="Texas-Pequeno">Texas-Pequeno</option>
                             <option value="Texas-Familia">Texas-Família</option>
                         </select>
-
                     </div>
 
-                </form>
+                </div>
 
             </div>
 
-
         </section>
-
 
         <section class="selecione-hamburguer">
 
 
             <div class="hamburguer-card-todos">
 
-                <div class="card">
-
-                    <div class="hamburguer-card">
-                        <img src="./Card-burger-1 1.png" alt="card-hamburguer">
-                        <h2>Tradicional</h2>
-                        <h3>Texas Burguer</h3>
-                        <p>R$ 25,50</p>
-                    </div>
-
+                <div class="hamburguer-card">
+                    <img src="./Card-burger-1 1.png" alt="card-hamburguer">
+                    <h2>Tradicional</h2>
+                    <h3>Texas Burguer</h3>
+                    <p>R$ 25,50</p>
                 </div>
 
                 <div class="hamburguer-card">
@@ -122,9 +121,9 @@
 
                 <div class="hamburguer-card">
                     <img src="./Card-burger-2 4.png" alt="">
-                        <h2>Tradicional</h2>
-                        <h3>Texas Burguer</h3>
-                        <p>R$ 25,50</p>
+                    <h2>Tradicional</h2>
+                    <h3>Texas Burguer</h3>
+                    <p>R$ 25,50</p>
                 </div>
 
                 <div class="hamburguer-card">

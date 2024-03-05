@@ -1,18 +1,17 @@
-.top-header {
-    
-}
-
-
+/* Header */
 .lista-menu {
     display: grid;
     grid-template-columns: repeat(12, 1fr );
-    grid-template-rows: repeat(6, 1fr );
     color: #fff;
     font-family: "Regular";
     list-style: none;
-    padding: 40px 0px;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
+.lista-menu i {
+    opacity: 0;
+}
 
 div.lista-menu img.ttp {
     grid-column: 2 / 3;
@@ -37,6 +36,7 @@ div.lista-menu ul.top {
     grid-column: 10 / 12;
     font-size: 30px;
     text-align: center;
+    padding: 10px;
     
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 
-/* Section Hamburguer */
+/* Section Hamburguer-grande */
 
 
 div.hamburguer {
@@ -84,20 +84,23 @@ div.hamburguer button {
     background-color: var(--preset--color--laranja-escuro);
 }
 
+div.img-hamburguer {
+    display: flex;
+    position: relative;
+    bottom: -100px;
+}
 
 section.hamburguer-grande {
     display: flex;
     justify-content: space-around;
 }
 
-
 /* Section Pesquise Hamburguer */
 
 section.pesquise-hamburguer {
     background-color: #1F1F1F;
-    height: 372px;
+    max-height: 250px;
     padding: 30px;
-    
 }
 
 div.form-hamburguer h2 {
@@ -108,18 +111,34 @@ div.form-hamburguer h2 {
     color: #fff;
 }
 
-div.form-hamburguer input {
+div.informacoes-hamburguers {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Regular";
+    margin: 80px 470px 0 0;
+    position: relative;
+}
+
+div.informacoes-hamburguers i {
+    position: relative;
+    left: 135px;
+    top: 25px;
+    font-size: 20px;
+}
+
+div.informacoes-hamburguers input {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
     background-color: #2B2B2B;
 }
 
-div.teste {
-    
+div.informacoes-hamburguers input[type="text"] {
+    padding-left: 50px;
 }
 
-div.name-hamburguer {
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
+div.hamburguer-favorito {
+    margin-left: 175px;
 }
 
 div.name-hamburguer input {
@@ -133,11 +152,13 @@ div.name-hamburguer input {
 
 select#hamburguer {
     font-family: "Regular";
-    width: 400px;
-    height: 34px;
+    width: 488px;
     font-size: 24px;
     background-color: #2B2B2B;
     color: #979797;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
 }
 
 
@@ -145,7 +166,6 @@ select#hamburguer {
 
 section.selecione-hamburguer {
     padding: 30px;
-    
 }
 
 div.hamburguer-card-todos {
@@ -155,15 +175,13 @@ div.hamburguer-card-todos {
 }
 
 div.hamburguer-card img {
-    width: 214px;
+    width: 200px;
     height: 194px;
+    position: relative;
+    left: 50px;
 }
 
-
-
 div.hamburguer-card {
-    text-align: center;
-    flex-direction: column;
     background-color: #1F1F1F;
     border-radius: 8px;
     width: 400px;
@@ -190,7 +208,6 @@ div.hamburguer-card h3 {
 
 div.hamburguer-card p {
     color: #FE6A0F;
-
     height: 39px;
     font-family: "Regular";
     font-weight: 600px;
