@@ -32,12 +32,13 @@ div.lista-menu ul.tup {
     font-size: 30px;
 }
 
-div.lista-menu ul.top {
+div.lista-menu button.top {
     grid-column: 10 / 12;
     font-size: 30px;
     text-align: center;
     padding: 10px;
-    
+    background-color: black;
+    color: #fff;
 }
 
 header .top {
@@ -177,8 +178,9 @@ div.hamburguer-card-todos {
 div.hamburguer-card img {
     width: 200px;
     height: 194px;
+    
     position: relative;
-    left: 50px;
+    left: 100px;
 }
 
 div.hamburguer-card {
@@ -188,6 +190,18 @@ div.hamburguer-card {
     height: 300px;
     padding: 20px;
     margin: 10px 20px;
+}
+
+div.hamburguer-card button {
+    background-color: coral;
+    color: #fff;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 280px;
+    left: 40px;
+    /* right: 80px; */
 }
 
 div.hamburguer-card h2 {

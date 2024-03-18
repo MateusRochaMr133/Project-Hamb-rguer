@@ -1,0 +1,16 @@
+[
+    {
+        "numero": 1,
+        "nome": "Cheddar Burguer",
+        "Tipo": "Queridinho da casa",
+        "Preco": "R$25.50",
+        "foto": "Card-burguer-1 2"
+    },
+    {
+        "numero": 2,
+        "nome": "Texas Burguer",
+        "Tipo": "Tradicional",
+        "Preço": "R$25.50",
+        "foto": "Card-burguer-2"
+    }
+]
